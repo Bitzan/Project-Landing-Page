@@ -8,6 +8,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
     height: 100%;
     width: 100%;
     padding: 0;
@@ -147,3 +148,46 @@ body {
     font-weight: bolder;
     width: 1400px;
 }
+
+.main-content3 {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sign-up-container {
+    background-color: #3882F6;
+    border-radius: 12px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    gap: 10px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom:0;
+}
+
+.info {
+    margin-top: 5px;
+}
+
+.main-content3 button {
+    border-radius: 7px;
+    padding: 10px 20px;
+    border:solid 1px white;
+    background-color: transparent;
+    height: 40px;
+    width: 150px;
+}
+
+.main-content3 a {
+    text-decoration: none;
+    color: white;
+}
+
