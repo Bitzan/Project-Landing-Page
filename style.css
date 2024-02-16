@@ -23,7 +23,7 @@ body {
 }
 
 .header-up {
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 .header-down {
@@ -54,6 +54,7 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .header-down p {
@@ -74,6 +75,8 @@ body {
     text-decoration: none;
     color: white;
 }
+
+
 
 .header-down img {
     height: 250px;
