@@ -1,8 +1,15 @@
 
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
 body {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 100%;
     padding: 0;
     margin: 0;
     height: fit-content;
@@ -92,7 +99,8 @@ body {
     border-radius: 12px;
 }
 
-.main-content {
+.main-content,
+.main-content2 {
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -104,6 +112,7 @@ body {
     flex-direction: row;
     text-align: center;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .illustration-container h1 {
@@ -115,4 +124,26 @@ body {
 
 .information-header {
     text-align: center;
+    margin-top: 50px;
+}
+
+.main-content2 {
+    background-color: #E5E7EB;
+    width: 100%;
+    margin: 0;
+}
+
+.quote {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight:light;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 24px;
+    text-align: end;
+    font-weight: bolder;
+    width: 1400px;
 }
