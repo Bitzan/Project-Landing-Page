@@ -84,6 +84,8 @@ body {
 .header-down a {
     text-decoration: none;
     color: white;
+    font-weight:bolder;
+    font-size: 18px;
 }
 
 .header-down img {
@@ -189,6 +191,8 @@ body {
 .main-content3 a {
     text-decoration: none;
     color: white;
+    font-weight:bolder;
+    font-size: 18px;
 }
 
 .footer {
