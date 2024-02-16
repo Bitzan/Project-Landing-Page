@@ -191,3 +191,12 @@ body {
     color: white;
 }
 
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    height: 100px;
+}
